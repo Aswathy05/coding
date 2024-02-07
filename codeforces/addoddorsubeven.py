@@ -1,0 +1,19 @@
+t=int(input())
+for i in range(t):
+    lst=input().split()
+    a=int(lst[0])
+    b=int(lst[1])
+    count=0
+    if(a-b==0):
+        count+=0
+    elif(a-b<0):
+        if((a-b)%2!=0):
+            count+=1
+        else:
+            count+=2 
+    else:
+        if((a-b)%2!=0):
+            count+=2      
+        else:
+            count+=1
+    print(count)        

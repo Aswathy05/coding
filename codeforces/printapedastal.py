@@ -1,0 +1,5 @@
+lst=input().split()
+r=int(lst[0])
+c=int(lst[1])
+e=int(lst[2])
+print((r+e)*c)

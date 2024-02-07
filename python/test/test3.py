@@ -1,0 +1,7 @@
+file_ob = open("input.txt","w"+"r")
+file_ob.write("Hello World, Python Programming \n")
+file_ob.write("Line1 \n")
+file_ob.write("LIne2")
+print(file_ob.readlines(1))
+print(file_ob.readlines())
+print(file_ob.readlines(1))

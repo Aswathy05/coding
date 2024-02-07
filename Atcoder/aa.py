@@ -1,0 +1,11 @@
+b=int(input())
+i=0
+while(True):
+    if(i**i==b):
+        print(i)
+        break
+    elif(i**i>b):
+        print(-1)
+        break
+    else:
+        i+=1    

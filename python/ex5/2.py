@@ -1,0 +1,11 @@
+Str = "String Slicing in Python" 
+print(Str[13:18])
+print(Str[-2:-4:-2]) 
+print(Str[12:8:2])
+print(Str[-17:-1:1])
+print(Str[-6:-20:-2]) 
+print(Str[0:9:3])
+print(Str[19:29])
+print(Str[-6:-9:-3])
+print(Str[-9:-0:-1])
+print(Str[2:16:3])

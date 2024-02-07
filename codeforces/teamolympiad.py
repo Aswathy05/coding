@@ -1,0 +1,20 @@
+n=int(input())
+t=input().split()
+ind_1,ind_2,ind_3=[],[],[]
+one,two,three=0,0,0
+for i in range(n):
+    if(t[i]=="1"):
+        one+=1
+        ind_1.append(i)
+    elif(t[i]=="2"):
+        two+=1
+        ind_2.append(i)    
+    else:
+        three+=1
+        ind_3.append(i)   
+mini=min(len(ind_1),len(ind_2),len(ind_3))        
+print(mini)    
+i=0
+while(i<mini):
+    print(ind_1[i]+1,ind_2[i]+1,ind_3[i]+1)
+    i+=1

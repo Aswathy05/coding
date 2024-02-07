@@ -1,0 +1,11 @@
+s=input()
+t=input()
+i=0
+j=0
+count=0
+while(j<len(t)):
+    if(t[j]==s[i]):
+        i+=1
+        count+=1
+    j+=1
+print(count+1)        

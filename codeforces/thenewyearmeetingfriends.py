@@ -1,0 +1,6 @@
+x=input()
+lst=x.split()
+x1=int(lst[0])       
+x2=int(lst[1]) 
+x3=int(lst[2])
+print(max(x1,x2,x3)-min(x1,x2,x3))    
