@@ -7,6 +7,6 @@ for i in range(t):
         if(s[i]=="B"):
             first=i
             for j in range(n):
-                if("")
+                
                 if("B" in s[i+1:]):
-                    second=
+                    second="hehe"
