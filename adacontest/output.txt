@@ -1,0 +1,3 @@
+ Authentication Library: v4
+ Data Storage Library: v10
+ Search Library: v6
