@@ -1,5 +1,2 @@
-abcadaeabca
-abcdeafbcg
-a
-aaaaaaaa
-abcdefgh
+3 3 4 5 5
+1 1 2 3
