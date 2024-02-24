@@ -20,30 +20,4 @@ def threesq(x):
 for i in range(int(input())):
     print(threesq(int(input())))
 
-    """ n=(4**a)*(8*b+7)
-    if(n>x):
-        return(True)
-    print(n, "ONE")
-    if(n==x):
-        return(False)
-    else:
-        a+=1
-        n=(4^a)*(8*b+7)
-        print(n,"TWO")
-        if(n==x):
-            return(False)
-        else:
-            a-=1
-            b+=1
-            n=(4^a)*(8*b+7)
-            print(n,"THREE")
-            if(n==x):
-                return(False)
-            elif(n>x):
-                return(True)
-            else:
-                a+=1
-for i in range(int(input())):
-print(threesq(int(input())))
-
-"""
+  
